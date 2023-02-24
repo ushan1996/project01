@@ -1,0 +1,31 @@
+
+
+.form-box1
+{
+    width: 480px;
+    height: 580px;
+    background: rgba(224, 250, 201, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    -webkit-box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 14px -3px rgba(0,0,0,0.75);
+}
+.main-heading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: rgb(8, 8, 8);
+    padding-bottom: 20px;
+}
+.form1
+{
+    position: relative;
+    margin: 0 auto 100px;
+    padding: 25px;
+    text-align: center;
+    bottom: 20px;
+}

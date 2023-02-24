@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.postProfileImg{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px -1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px -1px 23px 0px rgba(0,0,0,0.75);
+
+}
+
+.details{
+    font-size: 21px;
+    padding: 4px;
+    font-weight: bold;
+}
+.wrapper{
+   align-items: center;
+   left: 40%;
+   margin-top: 200px;
+}
+div.wrapper {
+    position: relative;
+    clear: both;
+    width: 25%;
+    }
+    div.left {   
+    float: left;
+    width: 40%;
+    }	
+    div.right {
+    float: right;
+    width: 60%;
+    }
+    @media only screen and (max-width: 1424px) {
+        div.wrapper {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            clear: both;
+            width: 25%;
+            }
+        div.left {
+            width: 40%;
+            
+            }	
+            div.right {
+            width: 60%;
+           text-align: center;
+            }
+    }
